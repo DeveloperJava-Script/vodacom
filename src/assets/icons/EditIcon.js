@@ -1,0 +1,11 @@
+import React from "react"
+import { SvgXml } from "react-native-svg"
+export default function EditIcon() {
+  const svgMarkup = `<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1993 0.881862C11.7627 -0.5548 10.1138 0.196182 10.1138 0.196182L8.9997 1.31026L8.99966 1.31021L7.58544 2.72443L7.58548 2.72447L0.514259 9.79569L0.245254 12.0374L0 14.0812L2.04378 13.8359L4.2855 13.5669L13.885 3.96742C13.885 3.96742 14.636 2.31852 13.1993 0.881862ZM8.9997 4.13868L2.4176 10.7208L2.28903 11.7922L3.36041 11.6636L9.94251 5.08149L8.9997 4.13868ZM11.3567 3.66728L12.081 2.94302L12.0811 2.9358C12.0832 2.78716 12.0582 2.56915 11.7851 2.29608C11.512 2.023 11.294 1.99803 11.1454 2.00008L11.1382 2.00021L10.4139 2.72447L11.3567 3.66728Z" fill="#2AA6FF"/>
+  </svg>
+  `
+  const SvgImage = () => <SvgXml xml={svgMarkup} width="15px" />
+
+  return <SvgImage />
+}
